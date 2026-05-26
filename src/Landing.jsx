@@ -310,7 +310,7 @@ function Hero() {
                          
                     </motion.span>
                     
-                    <span>In our prototype, we are currently facing an issue with fetching live stats in chart and graph formats only in the deployed version, while everything works perfectly locally. We are actively working on fixing it. However, the core functionalities are working properly, including capturing hackers’ IP addresses, payloads, notifications, and other attack-related data in real time.
+                    <span>In our prototype, we are currently facing an issue with fetching live stats of chart and graph formats in frontend only in the deployed version, while everything works perfectly locally. We are actively working on fixing it. However, the core functionalities are working properly, including capturing hackers’ IP addresses, payloads, notifications, and other attack-related data in real time.
 </span>
                 </motion.div>
 

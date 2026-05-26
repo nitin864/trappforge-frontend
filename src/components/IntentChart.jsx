@@ -10,6 +10,7 @@ const INTENT_COLORS = {
 
 export default function IntentChart() {
   const { stats } = useAttacks();
+  console.log(stats)
   const data = Object.entries(stats?.by_intent ?? {})
     .map(([name, value]) => ({ name: name.replace(/_/g," "), value, raw:name }))
     .sort((a,b)=>b.value-a.value).slice(0,8);

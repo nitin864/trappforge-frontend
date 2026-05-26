@@ -287,7 +287,7 @@ function Hero() {
     return (
         <section style={{ position: "relative", minHeight: "100vh", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", textAlign: "center", padding: "80px 24px 0", overflow: "hidden" }}>
             <MatrixRain />
-
+             
             <motion.div
                 variants={container}
                 initial="hidden"
@@ -307,9 +307,11 @@ function Hero() {
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 0.2 }}
                     >
-                        {count.toLocaleString()}
+                         
                     </motion.span>
-                    <span>attacks intercepted today</span>
+                    
+                    <span>In our prototype, we are currently facing an issue with fetching live stats in chart and graph formats only in the deployed version, while everything works perfectly locally. We are actively working on fixing it. However, the core functionalities are working properly, including capturing hackers’ IP addresses, payloads, notifications, and other attack-related data in real time.
+</span>
                 </motion.div>
 
                 {/* Headline */}

@@ -3,8 +3,9 @@ import { useAttacks } from "../App";
 
 export default function TimelineChart() {
   const { stats } = useAttacks();
-  const data = stats?.timeline ?? [];
-  if (!data.length) return <div className="chart-empty">Collecting data…</div>;
+  const data = stats?.timeline ?? [];0
+  if (!data.length) return <div className="chart-empty" style={{ color: "red" }}>Collecting data…(Currently fixing this rendering issue. It only occurs in the deployed version and not in the local version.
+)</div>;
   return (
     <ResponsiveContainer width="100%" height={160}>
       <AreaChart data={data} margin={{top:4,right:4,bottom:0,left:-20}}>

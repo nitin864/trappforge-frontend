@@ -17,7 +17,8 @@ export default function Dashboard() {
       <div className="page-header">
         <div className="page-header-left">
           <h1>Threat Operations Center</h1>
-          <h3>These are live attack logs from real hackers targeting our VPS Servers from AWS.
+          <h3 style={{ color: "red" }}>
+  These are live attack logs from real hackers all over the world targeting our VPS servers hosted on AWS.
 </h3>
           <p>Real-time honeypot monitoring · {attacks.length.toLocaleString()} events captured</p>
         </div>

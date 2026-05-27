@@ -328,7 +328,7 @@ function Hero() {
                 {/* CTA buttons */}
                 <motion.div variants={item} style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 16, flexWrap: "wrap", marginBottom: 28 }}>
                     <motion.a
-                        href="#deploy"
+                         
                         onClick={() => navigate("/dashboard")}
                         whileHover={{ filter: "brightness(1.1)", scale: 1.02 }}
                         whileTap={{ scale: 0.98 }}
